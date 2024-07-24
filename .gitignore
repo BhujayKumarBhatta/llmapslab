@@ -1,0 +1,6 @@
+*.py[cod]
+__pycache__/
+.ipynb_checkpoints/
+models/
+*.parquet
+
