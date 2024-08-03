@@ -1,0 +1,563 @@
+    1  pwd
+    2  ll
+    3  mkdir mydev
+    4  cd mydev
+    5  git clone https://github.com/studiawan/pylogsentiment.git
+    6  cd pylog
+    7  cd pylogsentiment/
+    8  cd .
+    9  python -V
+   10  python --V
+   11  python3 -V
+   12  python3 -m venv pylogsentenv
+   13  apt install python3.8-venv
+   14  sudo apt install python3.8-venv
+   15  sudo apt install python3-venv
+   16  sudo apt update
+   17  sudo apt install python3.8-venv
+   18  python3 -m venv envpylogsentiment
+   19  activate envpylogsentiment/
+   20  ll
+   21  rm envpylogsentiment/
+   22  rm -r envpylogsentiment/
+   23  cd ..
+   24  python3 -m venv envpylogsentiment
+   25  ll envpylogsentiment/
+   26  ll envpylogsentiment/bin/
+   27  envpylogsentiment/bin/activate
+   28  sh envpylogsentiment/bin/activate
+   29  cd envpylogsentiment/bin/
+   30  ll
+   31  chmod +x activate
+   32  activate
+   33  ./activate
+   34  cd ..
+   35  cd pylogsentiment/
+   36  ll
+   37  conda
+   38  ll
+   39  cd MyDev
+   40  ll
+   41  cd PLELog/
+   42  ll
+   43  pip list
+   44  sudo apt install python3-pip
+   45  sudo apt update
+   46  sudo apt install python3-pip
+   47  sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+   48  wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+   49  bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh
+   50  bash /Anaconda3-2020.02-Linux-x86_64.sh
+   51  ll
+   52  ./Anaconda3-2021.11-Linux-x86_64.sh 
+   53  conda
+   54  conda env list
+   55  anaconda-navigator
+   56  conda
+   57  export DISPLAY=:0
+   58  anaconda-navigator
+   59  export DISPLAY=:0
+   60  anaconda-navigator 
+   61  export DISPLAY=:0
+   62  anaconda-navigator 
+   63  conda deactivate
+   64  conda create -n pelog383  python=3.8.3
+   65  conda activate pelog383
+   66  conda install pytorch==1.5.1 torchvision==0.6.1 -c pytorch
+   67  conda install -c conda-forge hdbscan==0.8.26
+   68  conda install -c conda-forge overrides==3.1.0
+   69  cd MyDev
+   70  cd PLELog/
+   71  python --config_file cfg/HDFS.cfg --dataset HDFS
+   72  python pipeline.py --config_file cfg/HDFS.cfg --dataset HDFS
+   73  vi cfg\HDFS.cfg
+   74  ll cfg
+   75  ll
+   76  python pipeline.py --config_file config/HDFS.cfg --dataset HDFS
+   77  ll dataset/
+   78  cd dataset/
+   79  mv nlp-word.vec.txt nlp-word.vec
+   80  cd ..
+   81  python pipeline.py --config_file config/HDFS.cfg --dataset HDFS
+   82  anaconda-nagigator
+   83  anaconda-navigator
+   84  spyder
+   85  conda deactivate
+   86  conda activate pelog383
+   87  spyder
+   88  conda install spyder
+   89  pwd
+   90  cd /mnt/c/Users/Bhujay_ROG/MyDev/
+   91  cd PLELog/
+   92  apyder
+   93  conda list
+   94  spyder
+   95  conda deactiavte
+   96  conda deactivate
+   97  conda activate pelog383
+   98  conda list
+   99  spyder
+  100  anaconda-navigator
+  101  spyder
+  102  vi .gitignore 
+  103  ll
+  104  vi .gitignore 
+  105  git status
+  106  vi .gitignore 
+  107  git status
+  108  git remote -v
+  109  pwd
+  110  ls -l
+  111  mkdir tfbuild
+  112  cd tf
+  113  cd tfbuild/
+  114  ll
+  115  exit
+  116  source wslvenvtftutorial/bin/activate
+  117  \
+  118  jupyter lab
+  119  pip install upgrade tensorflow
+  120  pip install --upgrade tensorflow
+  121  source wslvenvtftutorial/bin/activate
+  122  jupyter lab
+  123  python -V
+  124  deactivate
+  125  exit
+  126  cd d:
+  127  cd /mnt/d
+  128  cd attention/
+  129  cd mydev
+  130  cd attention
+  131  ll
+  132  source wslvenvtftutorial/bin/activate
+  133  jupyter lab
+  134  cd /mnt/d/mydev/attention/transformerlab/
+  135  ll
+  136  git config --?
+  137  git config  -l
+  138  git config --global user.name "Bhujay Kumar Bhatta"
+  139  git config --global user.email "bhujay.bhatta@yahoo.com"
+  140  git show
+  141  git add .
+  142  git commit -m 'first commit"
+  143  '
+  144  git remote add origin https://github.com/BhujayKumarBhatta/transformerlab.git
+  145  ls -l ~/.ssh
+  146  ssh-keygen
+  147  ls -l ~/.ssh
+  148  cat ~/.ssh/id_rsa.pub 
+  149  git push origin master
+  150  ssh -T git@github.com
+  151  git remote list
+  152  git remote -v
+  153  git remote remove origin 
+  154  git remote set-url origin git@github.com:BhujayKumarBhatta/transformerlab.git
+  155  git remote add  origin git@github.com:BhujayKumarBhatta/transformerlab.git
+  156  git push origin master
+  157  ll
+  158  git add .
+  159  git show
+  160  git status
+  161  vi .gitignore
+  162  git status
+  163  vi .gitignore
+  164  git rm --cached src/__pycache__/*.pyc
+  165  git status
+  166  git commit -m "notebook with custom mha and reasonable plots"
+  167  git push origin master
+  168  vi .gitignore
+  169  git status
+  170  git commit -m "do not track ipynb checkpoints"
+  171  git commit -m - a "do not track ipynb checkpoints"
+  172  git commit -m -a "do not track ipynb checkpoints"
+  173  git add .
+  174  git commit -m  "do not track ipynb checkpoints"
+  175  git status
+  176  git push  origin master
+  177  vi .gitignore
+  178  git status
+  179  git commit -a -m "reasonable attn plots using tf-mha and bb-mha"
+  180  git status
+  181  git add .
+  182  git commit -a -m "reasonable attn plots using tf-mha and bb-mha"
+  183  git push  origin master
+  184  git commit -a -m "starting to parameterize which mha to use"
+  185  git status
+  186  git push  origin master
+  187  git status
+  188  git add . 
+  189  git status
+  190  git push  origin master
+  191  git commit -a -m "param done only for encoder "
+  192  git commit -a -m "ein sum explained "
+  193  git push  origin master
+  194  cd mydev
+  195  cd attention
+  196  source wslvenvtftutorial/bin/activate
+  197  jupyter lab
+  198  cd mydev
+  199  cd attention
+  200  git status
+  201  cd transformerlab/
+  202  git status
+  203  git add .
+  204  git commit -a -m "ein_Sum"
+  205  git push origin master
+  206  cd attention
+  207  cd mydev
+  208  cd attention
+  209  source wslvenvtftutorial/bin/activate
+  210  jupyter lab
+  211  cd mydev
+  212  cd attention
+  213  git status
+  214  ll
+  215  cd transformerlab/
+  216  ll
+  217  git status
+  218  git commit -a -m'll'
+  219  git push origin master
+  220  mkdir bert
+  221  cd bert
+  222  git add .
+  223  cd mydev
+  224  cd attention
+  225  ll
+  226  source  wslvenvtftutorial/
+  227  source  wslvenvtftutorial/bin/activate
+  228  ll
+  229  cd transformerlab/
+  230  ll
+  231  cd bert
+  232  ll
+  233  cd..
+  234  cd ..
+  235  ll
+  236  jupyter lab
+  237  deactivate
+  238  cd
+  239  cd mydev
+  240  ll
+  241  cd attention
+  242  ll
+  243  exit 
+  244  ll
+  245  source wslvenvtftutorial/bin/activate
+  246  ll
+  247  jyputer lab
+  248  jupyter lab
+  249  deactivate
+  250  python -m venv wslvenv2nd
+  251  source wslvenv2nd/bin/activate
+  252  pip install jupyter-lab
+  253  pip install jupyterlab
+  254  jupyter lab
+  255  source wslvenv2nd
+  256  ad attention
+  257  ll
+  258  cd attention
+  259  ll
+  260  source wslvenv2nd
+  261  source wslvenv2nd/bin/activate
+  262  pip install  numpy pandas matplotlib scikitlearn
+  263  pip install  numpy pandas matplotlib
+  264  pip install  scikit-learn
+  265  pip install tensorflow
+  266  cd transformerlab/
+  267  git status
+  268  git pull origin master
+  269  ll
+  270  cd bert
+  271  pip install seaborn
+  272  ll
+  273  cd ..
+  274  ll
+  275  cd ..
+  276  source wslvenv2nd/bin/activate
+  277  pip install seaborn
+  278  pip install pyplot
+  279  pip install matplotlib
+  280  pip install transformers
+  281  git add .
+  282  cd transformerlab
+  283  git adde .
+  284  git add .
+  285  git commit -a -m 'bert pretraining data for MLM only'
+  286  git push origin master
+  287  git add .
+  288  git commit -a -m 'pretraining data with NSP n MLM '
+  289  git push origin master
+  290  git add .
+  291  git commit -a -m 'pre training started with data'
+  292  git push origin master
+  293  git commit -a -m 'detail analysis of the code started'
+  294  git push origin master
+  295  git add .
+  296  git commit -a -m 'tokens_a and tokens_b corrected'
+  297  git push origin master
+  298  ll ../
+  299  ll ../.git
+  300  ll ../gitignore
+  301  git status
+  302  git add .
+  303  git status
+  304  git commit -a -m 'saving in parquet format'
+  305  git status
+  306  git log
+  307  git push origin master
+  308  git add .
+  309  git commit -a -m 'training on mlm only'
+  310  git add .
+  311  git commit -a -m 'pretraining_toydata and saved model'
+  312  git push origin master
+  313  cd MyDev/
+  314  cd attention/
+  315  ll
+  316  source wslvenv2nd/bin/activate
+  317  ll ..
+  318  jupyter lab
+  319  cd mydev
+  320  cd attention/
+  321  ll
+  322  source wslvenvtftutorial/bin/activate
+  323  ll
+  324  jypyter lab
+  325  jupyter lab
+  326  source wslvenv2nd/bin/activate
+  327  jupyter lab
+  328  cd mydev
+  329  ll
+  330  cd attention/
+  331  cd transformerlab/
+  332  git status
+  333  git add .
+  334  git commit -a -m 'wip fine tuning'
+  335  git push origin master
+  336  git add .
+  337  git commit -a -m 'fine tuning done'
+  338  git push origin master
+  339  ll
+  340  ll ..
+  341  source ../wslvenv2nd/bin/activate
+  342  huggingface-cli login
+  343  ll models/
+  344  ll models/bert
+  345  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+  346  sudo apt-get install git-lfs
+  347  git lfs install
+  348  git add .
+  349  git commit -a -m 'convert as HuggigFace model and upload to HF'
+  350  git push origin master
+  351  git commit -a -m 'convert as HuggigFace model and upload to HF'
+  352  git push origin master
+  353  git commit -a -m 'Only Using HuggingFace'
+  354  git push origin master
+  355  git commit -a -m 'starting GPT'
+  356  git push origin master
+  357  git add .
+  358  git commit -a -m 'starting GPT'
+  359  git push origin master
+  360  source venv/bin/activate
+  361  jupyterlab
+  362  jupyter-lab
+  363  source venv/bin/activate
+  364  pip install numpy pandas sklearn  pytorch tensorflow matplotlib seaboarn openai lanchain
+  365  pip install  langchain
+  366  pip install  matplotlib seaboarn openai lanchain
+  367  pip install  matplotlib  openai lanchain
+  368  pip install  matplotlib  openai 
+  369  pip install pytorch
+  370  pip install matplotlib
+  371  pip install transformer
+  372  pip install transformers
+  373  pip install torch seaborn
+  374  git add .
+  375  cd llmapslab/
+  376  git add .
+  377  git commit -a -m 'openai call using langchain'
+  378  git push origin master
+  379  git commit -a -m 'openai api access help text'
+  380  git status
+  381  ll
+  382  rm -r venv
+  383  ll
+  384  python -V
+  385  python -m venv venv
+  386  source venv/bin/activate
+  387  pip install jupyter lab
+  388  git clone git@github.com:BhujayKumarBhatta/llmapslab.git
+  389  ll
+  390  cd llmapslab/
+  391  git status
+  392  touch license
+  393  git commit -a -m'fist commit'
+  394  git add .
+  395  ll ../../attention/
+  396  ll ../../attention/transformerlab/.gitignore  .
+  397  cp  ../../attention/transformerlab/.gitignore  .
+  398  ll
+  399  git add .
+  400  git commit -a -m'fist commit'
+  401  git push origin master
+  402  vi ../OpemAIDevAPIKey.txt
+  403  vi ../secrets.json
+  404  pip install --upgrade openai
+  405  pip install langchain-openai
+  406  source venv/bin/activate
+  407  jupyter-lab
+  408  pip install langchain_community langgraph tavily-python
+  409  pip list|grep lang
+  410  jupyter-lab
+  411  deactivate
+  412  cd ..
+  413  pwd
+  414  dir
+  415  cd llmapps/
+  416  ll
+  417  cd ..
+  418  git clone git@github.com:BhujayKumarBhatta/langchain.git
+  419  ll
+  420  mkdir langchainfork
+  421  cd langchainfork/
+  422  git clone git@github.com:BhujayKumarBhatta/langchain.git
+  423  ll
+  424  python -m venv venv
+  425  source venv/bin/activate
+  426  git branch optvars_template
+  427  cd langchain/
+  428  git switch -b optvars_chattemplate
+  429  git checkout -b opt-vars-chat-template
+  430  ll
+  431  ll scripts/
+  432  pip install potery
+  433  pip install poetry
+  434  poetry config virtualenvs.create false
+  435  pip install jupyter-lab 
+  436  pip install jupyterlab 
+  437  git branch
+  438  git status
+  439  git commit -a -m "excluding optional_variables from input_vars"
+  440  git remote -v
+  441  git branch
+  442  git push origin opt-vars-chat-template
+  443  poetry install 
+  444  ll
+  445  poetry update
+  446  ll
+  447  cd ..
+  448  ll
+  449  cd langchain/
+  450  pip list|grep pyodbc
+  451  poetry update
+  452  pip install pyodbc
+  453  poetry update
+  454  poetry install 
+  455  pip list |grep pyodbc
+  456  poetry update
+  457  deactivate 
+  458  ll
+  459  cd ..
+  460  ll
+  461  rm -rf venv
+  462  cd langchain/
+  463  python -m venv venv
+  464  source venv/bin/activate
+  465  ll
+  466  git status
+  467  git restore pyproject.toml
+  468  git status
+  469  pip install git+https://github.com/BhujayKumarBhatta/langchain.git@opt-vars-chat-template
+  470  ll
+  471  cd libs
+  472  ll
+  473  cd core
+  474  ll
+  475  pip install . 
+  476  pip install jupyterlab 
+  477  jupyter lab
+  478  cd ../../../
+  479  ll
+  480  cd ..
+  481  ll
+  482  jupyter lab
+  483  cd langchainfork/langchain/
+  484  LL
+  485  ll
+  486  cd libs/
+  487  ll
+  488  cd langchain/
+  489  ll
+  490  pip install . 
+  491  cd ../core
+  492  ll
+  493  pip install . 
+  494  git status
+  495  pip install . 
+  496  cd ..
+  497  ll
+  498  cd langchain/
+  499  ll
+  500  pip install . 
+  501  git status
+  502  git commit -a -m 'making optional_variables in the template as optional' 
+  503  git push origin opt-vars-chat-template
+  504  pip isntall pandoc
+  505  pip install pandoc
+  506  git status
+  507  git diff ../core/langchain_core/prompts/chat.py
+  508  ll libs/core/langchain_core/prompts/chat.py
+  509  ll 
+  510  ll langchain/libs/core/langchain_core/prompts/chat.py
+  511  ll langchain
+  512  ll
+  513  ll ../core
+  514  ll ../core/langchain_core/prompts/chat.py 
+  515  git restore  ../core/langchain_core/prompts/chat.py 
+  516  git status
+  517  git update-index --assume-unchanged ../../.project
+  518  git update-index --assume-unchanged ../../.pydevproject
+  519  git status
+  520  cd ../../
+  521  ll
+  522  git update-index --assume-unchanged .pydevproject
+  523  vi .git/info/exclude 
+  524  git status
+  525  vi .git/info/exclude 
+  526  git status
+  527  deactivate
+  528  cd ../../llmapps/
+  529  ll
+  530  source venv/bin/activate
+  531  cd llmapslab/
+  532  ll
+  533  git status
+  534  git add .
+  535  git commit -a -m'langchain prompt and agent learning update'
+  536  git  branch
+  537  git push origin master
+  538  deactivate
+  539  cd ..
+  540  cd langchainfork/langchain/
+  541  git status
+  542  git checkout master
+  543  git pull origin master
+  544  git branch --all
+  545  git checkout -b doc-opt-vars-chat-template
+  546  ll
+  547  make test
+  548  make lint
+  549  source venv/bin/activate
+  550  make test
+  551  make lint
+  552  cd libs/langchain/
+  553  ll
+  554  ll langchain/
+  555  cd ..
+  556  ll
+  557  cd core
+  558  ll
+  559  make test
+  560  pip list|grep poetry
+  561  history
+  562  ll ../../../
+  563  history>>  ../../../history_1.txt

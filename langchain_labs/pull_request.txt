@@ -1,0 +1,125 @@
+- [ ] **Lint and test**: Run `make format`, `make lint` and `make test` from the root of the package(s) you've modified. See contribution guidelines for more: https://python.langchain.com/docs/contributing/
+
+Additional guidelines:
+- Make sure optional dependencies are imported within a function.
+- Please do not add dependencies to pyproject.toml files (even optional ones) unless they are required for unit tests.
+- Most PRs should not touch more than one package.
+- Changes should be backwards compatible.
+- If you are adding something to community, do not re-import it in langchain.
+
+If no one reviews your PR within a few days, please @-mention one of baskaryan, efriis, eyurtsev, ccurme, vbarda, hwchase17.
+
+
+
+git update-index --assume-unchanged ../../.project
+git update-index --assume-unchanged ../../.pydevproject
+
+
+(base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ source ../../venv/bin/activate
+
+pip install poetry
+pip install ruff
+pip install pytest_mock
+pip install mypy
+pip install types-requests requests  types-PyAML freezegun
+cd ..
+cd standard-tests/
+pip install .
+cd ../core/
+pip list >  ../../../requirements.txt
+
+(venv) (base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ poetry run which python
+Skipping virtualenv creation, as specified in config file.
+/mnt/d/mydev/langchainfork/langchain/venv/bin/python
+
+(venv) (base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ poetry config virtualenvs.create true
+(venv) (base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ poetry install
+
+Creating virtualenv langchain-core-LriTNZP--py3.9 in /home/bhujay/.cache/pypoetry/virtualenvs
+Installing dependencies from lock file
+
+Package operations: 16 installs, 0 updates, 0 removals
+
+  - Installing typing-extensions (4.12.2)
+  - Installing annotated-types (0.7.0)
+  - Installing certifi (2024.7.4)
+  - Installing charset-normalizer (3.3.2)
+  - Installing idna (3.7)
+  - Installing pydantic-core (2.20.1)
+  - Installing urllib3 (2.2.2)
+  - Installing jsonpointer (3.0.0)
+  - Installing orjson (3.10.6)
+  - Installing pydantic (2.8.2)
+  - Installing requests (2.32.3)
+  - Installing jsonpatch (1.33)
+  - Installing langsmith (0.1.94)
+  - Installing packaging (24.1)
+  - Installing pyyaml (6.0.1)
+  - Installing tenacity (8.5.0)
+
+Installing the current project: langchain-core (0.2.28)
+(venv) (base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ poetry add --dev pytest_mock
+
+
+
+
+(venv) (base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ make test
+
+----------------------------------------------------- snapshot report summary ------------------------------------------------------
+54 snapshots passed.
+======================================================= slowest 5 durations ========================================================
+5.43s call     tests/unit_tests/test_imports.py::test_importable_all_via_subprocess
+2.49s call     tests/unit_tests/runnables/test_tracing_interops.py::test_config_traceable_handoff
+1.31s call     tests/unit_tests/runnables/test_runnable.py::test_higher_order_lambda_runnable
+1.26s call     tests/unit_tests/runnables/test_runnable.py::test_retrying
+1.08s call     tests/unit_tests/runnables/test_runnable.py::test_router_runnable
+================================ 972 passed, 7 skipped, 5 xfailed, 1 xpassed, 24 warnings in 43.19s ===========================
+
+
+
+(venv) (base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ make format
+poetry run ruff format .
+282 files left unchanged
+poetry run ruff check --select I --fix .
+All checks passed!
+
+(venv) (base) bhujay@DESKTOP-MQIKKH7:/mnt/d/mydev/langchainfork/langchain/libs/core$ make lint
+./scripts/check_pydantic.sh .
+./scripts/lint_imports.sh
+poetry run ruff check .
+All checks passed!
+[ "." = "" ] || poetry run ruff format . --diff
+282 files already formatted
+[ "." = "" ] || poetry run ruff check --select I .
+All checks passed!
+[ "." = "" ] || poetry run mypy .
+Success: no issues found in 278 source files
+[ "." = "" ] || mkdir -p .mypy_cache && poetry run mypy . --cache-dir .mypy_cache
+Success: no issues found in 278 source files
+
+
+
+
+
+
+
+
+
+
+Ensure that no unnecessary changes in toml file 
+===============================================
+
+git status
+git update-index --assume-unchanged poetry.lock
+git status
+git update-index --assume-unchanged pyproject.toml
+git status
+
+
+
+
+
+
+
+
+
