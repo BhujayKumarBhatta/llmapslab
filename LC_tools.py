@@ -808,7 +808,10 @@ class Agent:
 
 
 
-
+data_path = os.path.join("../data")
+os.path.exists(data_path)
+csv_files = glob(f"{data_path}/*.csv")
+print(csv_files)
 
 # In[ ]:
 
