@@ -1,106 +1,6 @@
 [
   {
     "role": "user",
-    "content": "",
-    "ts": 1763200420.7463276
-  },
-  {
-    "role": "assistant",
-    "content": "[{\"name\": \"pistachio\", \"sugar_free\": true, \"kcal\": 180, \"price\": 160, \"stock_quantity\": 12}]",
-    "ts": 1763200423.6442332
-  },
-  {
-    "role": "user",
-    "content": "",
-    "ts": 1763200544.0011072
-  },
-  {
-    "role": "assistant",
-    "content": "The product is pistachio, which is sugar-free, has 180 kcal, costs 160, and has a stock quantity of 12.",
-    "ts": 1763200545.9138136
-  },
-  {
-    "role": "user",
-    "content": "",
-    "ts": 1763200687.0168185
-  },
-  {
-    "role": "assistant",
-    "content": "Pistachio: sugar-free, 180 kcal, price 160, stock 12.",
-    "ts": 1763200689.317254
-  },
-  {
-    "role": "user",
-    "content": "",
-    "ts": 1763201975.0634806
-  },
-  {
-    "role": "assistant",
-    "content": "Pistachio: sugar-free, 180 kcal, price 160, stock 12.",
-    "ts": 1763201977.148206
-  },
-  {
-    "role": "user",
-    "content": "what icecream do u cell",
-    "ts": 1763202048.6092246
-  },
-  {
-    "role": "assistant",
-    "content": "We sell the following ice cream flavors: vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream.",
-    "ts": 1763202052.8130038
-  },
-  {
-    "role": "user",
-    "content": "wgive me the first one",
-    "ts": 1763202066.8760242
-  },
-  {
-    "role": "assistant",
-    "content": "Vanilla ice cream: not sugar-free, 207 kcal, price 120, stock 21.",
-    "ts": 1763202069.117697
-  },
-  {
-    "role": "user",
-    "content": "give me last one too",
-    "ts": 1763202082.7629418
-  },
-  {
-    "role": "assistant",
-    "content": "Cookies and cream ice cream: not sugar-free, 240 kcal, price 150, stock 18.",
-    "ts": 1763202085.1176531
-  },
-  {
-    "role": "user",
-    "content": "",
-    "ts": 1763202621.9604053
-  },
-  {
-    "role": "assistant",
-    "content": "Vanilla ice cream: not sugar-free, 207 kcal, price 120, stock 21. Cookies and cream ice cream: not sugar-free, 240 kcal, price 150, stock 18.",
-    "ts": 1763202624.1713378
-  },
-  {
-    "role": "user",
-    "content": "what did you sell me last time",
-    "ts": 1763202633.7350252
-  },
-  {
-    "role": "assistant",
-    "content": "You bought vanilla ice cream.",
-    "ts": 1763202635.474386
-  },
-  {
-    "role": "user",
-    "content": "my name is bhujay",
-    "ts": 1763202678.6057708
-  },
-  {
-    "role": "assistant",
-    "content": "Hello Bhujay!",
-    "ts": 1763202681.5866423
-  },
-  {
-    "role": "user",
     "content": "give me lowest price icecream",
     "ts": 1763202692.9107556
   },
@@ -288,5 +188,55 @@
     "role": "assistant",
     "content": "Goodbye! If you need anything else, feel free to ask!",
     "ts": 1763203440.71305
+  },
+  {
+    "role": "user",
+    "content": "what is beautiful day to day 15th nov",
+    "ts": 1763206741.8364375
+  },
+  {
+    "role": "assistant",
+    "content": "November 15th is celebrated as Beautiful Day in various contexts, often associated with positivity and appreciation of life. It encourages people to find beauty in everyday moments.",
+    "ts": 1763206748.0150855
+  },
+  {
+    "role": "user",
+    "content": "so hoso is december",
+    "ts": 1763206784.021209
+  },
+  {
+    "role": "assistant",
+    "content": "Hoso does not refer to December in a widely recognized context.",
+    "ts": 1763206788.1576045
+  },
+  {
+    "role": "user",
+    "content": "that was a typ",
+    "ts": 1763206804.0400248
+  },
+  {
+    "role": "assistant",
+    "content": "Hoso likely refers to December, as it may have been a typo for \"hoso\". Please confirm if you meant \"how is December\".",
+    "ts": 1763206807.541728
+  },
+  {
+    "role": "user",
+    "content": "yes thats true",
+    "ts": 1763206823.2412288
+  },
+  {
+    "role": "assistant",
+    "content": "December is often associated with winter festivities, holidays, and celebrations. It brings a sense of joy and reflection as the year comes to a close. Many people embrace the festive spirit, spending time with family and friends.",
+    "ts": 1763206827.1838295
+  },
+  {
+    "role": "user",
+    "content": "my friend name is subrat",
+    "ts": 1763206853.1103084
+  },
+  {
+    "role": "assistant",
+    "content": "That's nice! Subrat is a great name. How can I assist you regarding your friend?",
+    "ts": 1763206856.3633673
   }
 ]
