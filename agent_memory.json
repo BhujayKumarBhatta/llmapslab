@@ -1,0 +1,272 @@
+[
+  {
+    "role": "user",
+    "content": "",
+    "ts": 1763200420.7463276
+  },
+  {
+    "role": "assistant",
+    "content": "[{\"name\": \"pistachio\", \"sugar_free\": true, \"kcal\": 180, \"price\": 160, \"stock_quantity\": 12}]",
+    "ts": 1763200423.6442332
+  },
+  {
+    "role": "user",
+    "content": "",
+    "ts": 1763200544.0011072
+  },
+  {
+    "role": "assistant",
+    "content": "The product is pistachio, which is sugar-free, has 180 kcal, costs 160, and has a stock quantity of 12.",
+    "ts": 1763200545.9138136
+  },
+  {
+    "role": "user",
+    "content": "",
+    "ts": 1763200687.0168185
+  },
+  {
+    "role": "assistant",
+    "content": "Pistachio: sugar-free, 180 kcal, price 160, stock 12.",
+    "ts": 1763200689.317254
+  },
+  {
+    "role": "user",
+    "content": "",
+    "ts": 1763201975.0634806
+  },
+  {
+    "role": "assistant",
+    "content": "Pistachio: sugar-free, 180 kcal, price 160, stock 12.",
+    "ts": 1763201977.148206
+  },
+  {
+    "role": "user",
+    "content": "what icecream do u cell",
+    "ts": 1763202048.6092246
+  },
+  {
+    "role": "assistant",
+    "content": "We sell the following ice cream flavors: vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream.",
+    "ts": 1763202052.8130038
+  },
+  {
+    "role": "user",
+    "content": "wgive me the first one",
+    "ts": 1763202066.8760242
+  },
+  {
+    "role": "assistant",
+    "content": "Vanilla ice cream: not sugar-free, 207 kcal, price 120, stock 21.",
+    "ts": 1763202069.117697
+  },
+  {
+    "role": "user",
+    "content": "give me last one too",
+    "ts": 1763202082.7629418
+  },
+  {
+    "role": "assistant",
+    "content": "Cookies and cream ice cream: not sugar-free, 240 kcal, price 150, stock 18.",
+    "ts": 1763202085.1176531
+  },
+  {
+    "role": "user",
+    "content": "",
+    "ts": 1763202621.9604053
+  },
+  {
+    "role": "assistant",
+    "content": "Vanilla ice cream: not sugar-free, 207 kcal, price 120, stock 21. Cookies and cream ice cream: not sugar-free, 240 kcal, price 150, stock 18.",
+    "ts": 1763202624.1713378
+  },
+  {
+    "role": "user",
+    "content": "what did you sell me last time",
+    "ts": 1763202633.7350252
+  },
+  {
+    "role": "assistant",
+    "content": "You bought vanilla ice cream.",
+    "ts": 1763202635.474386
+  },
+  {
+    "role": "user",
+    "content": "my name is bhujay",
+    "ts": 1763202678.6057708
+  },
+  {
+    "role": "assistant",
+    "content": "Hello Bhujay!",
+    "ts": 1763202681.5866423
+  },
+  {
+    "role": "user",
+    "content": "give me lowest price icecream",
+    "ts": 1763202692.9107556
+  },
+  {
+    "role": "assistant",
+    "content": "Vanilla ice cream: 120",
+    "ts": 1763202695.2669113
+  },
+  {
+    "role": "user",
+    "content": "thanks",
+    "ts": 1763202699.6903968
+  },
+  {
+    "role": "assistant",
+    "content": "You're welcome!",
+    "ts": 1763202702.2473123
+  },
+  {
+    "role": "user",
+    "content": "what is my name",
+    "ts": 1763202869.5352268
+  },
+  {
+    "role": "assistant",
+    "content": "Bhujay",
+    "ts": 1763202871.6514947
+  },
+  {
+    "role": "user",
+    "content": "thanks for rememebering",
+    "ts": 1763202879.1973364
+  },
+  {
+    "role": "assistant",
+    "content": "You're welcome, Bhujay!",
+    "ts": 1763202881.7190664
+  },
+  {
+    "role": "user",
+    "content": "tell me a one line story",
+    "ts": 1763202950.581176
+  },
+  {
+    "role": "assistant",
+    "content": "On a stormy night, the lighthouse keeper bravely guided a lost ship to safety.",
+    "ts": 1763202952.687006
+  },
+  {
+    "role": "user",
+    "content": "thats great , tell me one on ancientt wisdom",
+    "ts": 1763202972.73507
+  },
+  {
+    "role": "assistant",
+    "content": "In a time long past, a wise elder taught that true strength lies not in power, but in the courage to listen and learn.",
+    "ts": 1763202978.6303475
+  },
+  {
+    "role": "user",
+    "content": "how old are you",
+    "ts": 1763202990.1622608
+  },
+  {
+    "role": "assistant",
+    "content": "I don't have an age; I'm an AI created by OpenAI.",
+    "ts": 1763202992.1644635
+  },
+  {
+    "role": "user",
+    "content": "when you were born",
+    "ts": 1763203003.992857
+  },
+  {
+    "role": "assistant",
+    "content": "I was launched by OpenAI in November 2022.",
+    "ts": 1763203005.3729744
+  },
+  {
+    "role": "user",
+    "content": "do you have any siblings",
+    "ts": 1763203017.6562197
+  },
+  {
+    "role": "assistant",
+    "content": "As an AI, I don't have siblings, but there are other AI models developed by OpenAI.",
+    "ts": 1763203019.5737362
+  },
+  {
+    "role": "user",
+    "content": "who are they",
+    "ts": 1763203027.8571935
+  },
+  {
+    "role": "assistant",
+    "content": "Other AI models developed by OpenAI include GPT-3, DALL-E, and Codex.",
+    "ts": 1763203030.5756936
+  },
+  {
+    "role": "user",
+    "content": "what icecream do you cell",
+    "ts": 1763203051.258513
+  },
+  {
+    "role": "assistant",
+    "content": "We sell vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream ice cream.",
+    "ts": 1763203054.1628702
+  },
+  {
+    "role": "user",
+    "content": "one line poen in kanada",
+    "ts": 1763203070.4108467
+  },
+  {
+    "role": "assistant",
+    "content": "ಚಂದ್ರರ ಸುರ್ಯನಿಸು, ಪ್ರೀತಿಯ ಬೆಳಕು ಹರಿಯುತ್ತದೆ.",
+    "ts": 1763203072.597641
+  },
+  {
+    "role": "user",
+    "content": "one line in german",
+    "ts": 1763203083.3790054
+  },
+  {
+    "role": "assistant",
+    "content": "Die Blumen blühen im Sonnenlicht.",
+    "ts": 1763203085.1776996
+  },
+  {
+    "role": "user",
+    "content": "one in frfrench",
+    "ts": 1763203095.880947
+  },
+  {
+    "role": "assistant",
+    "content": "Les étoiles brillent dans la nuit.",
+    "ts": 1763203097.4788885
+  },
+  {
+    "role": "user",
+    "content": "one in english",
+    "ts": 1763203102.282136
+  },
+  {
+    "role": "assistant",
+    "content": "The sun sets, painting the sky in hues of gold.",
+    "ts": 1763203104.2423232
+  },
+  {
+    "role": "user",
+    "content": "what is my name",
+    "ts": 1763203118.8041778
+  },
+  {
+    "role": "assistant",
+    "content": "I do not know your name.",
+    "ts": 1763203121.1596708
+  },
+  {
+    "role": "user",
+    "content": "wwhat ice cream dod you sell last time",
+    "ts": 1763203147.7683513
+  },
+  {
+    "role": "assistant",
+    "content": "We sold vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream ice cream last time.",
+    "ts": 1763203149.838722
+  }
+]
