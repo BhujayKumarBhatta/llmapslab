@@ -268,5 +268,25 @@
     "role": "assistant",
     "content": "We sold vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream ice cream last time.",
     "ts": 1763203149.838722
+  },
+  {
+    "role": "user",
+    "content": "hello",
+    "ts": 1763203433.4471555
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! We have the following ice creams available: vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream.",
+    "ts": 1763203435.6366687
+  },
+  {
+    "role": "user",
+    "content": "bye",
+    "ts": 1763203438.615722
+  },
+  {
+    "role": "assistant",
+    "content": "Goodbye! If you need anything else, feel free to ask!",
+    "ts": 1763203440.71305
   }
 ]
