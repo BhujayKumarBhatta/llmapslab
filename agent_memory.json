@@ -1,35 +1,14 @@
 [
   {
-    "role": "assistant",
-    "content": "[Retrieved memory]\nUser: I also have a suzuki mouth organ\nAssistant: That's great, Bhujay! The Suzuki mouth organ can be a fun addition to your music collection.",
-    "ts": 1763275171.7859895,
-    "meta": {
-      "type": "retrieved",
-      "source_id": "convpair_1763274886_2"
-    }
-  },
-  {
     "role": "user",
-    "content": "no you suggested something else",
-    "ts": 1763275139.5021324,
+    "content": "robot",
+    "ts": 1763291703.600082,
     "meta": {}
   },
   {
     "role": "assistant",
-    "content": "You previously mentioned pistachio ice cream, but I also suggested vanilla ice cream as another option.",
-    "ts": 1763275142.462008,
-    "meta": {}
-  },
-  {
-    "role": "user",
-    "content": "what mouth organ I have",
-    "ts": 1763275171.0386522,
-    "meta": {}
-  },
-  {
-    "role": "assistant",
-    "content": "You have a Suzuki mouth organ.",
-    "ts": 1763275173.457521,
+    "content": "You can give Subrata \"I, Robot\" by Isaac Asimov.",
+    "ts": 1763291707.2744277,
     "meta": {}
   }
 ]
