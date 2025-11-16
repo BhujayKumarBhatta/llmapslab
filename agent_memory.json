@@ -1,242 +1,35 @@
 [
   {
-    "role": "user",
-    "content": "give me lowest price icecream",
-    "ts": 1763202692.9107556
-  },
-  {
     "role": "assistant",
-    "content": "Vanilla ice cream: 120",
-    "ts": 1763202695.2669113
-  },
-  {
-    "role": "user",
-    "content": "thanks",
-    "ts": 1763202699.6903968
-  },
-  {
-    "role": "assistant",
-    "content": "You're welcome!",
-    "ts": 1763202702.2473123
+    "content": "[Retrieved memory]\nUser: I also have a suzuki mouth organ\nAssistant: That's great, Bhujay! The Suzuki mouth organ can be a fun addition to your music collection.",
+    "ts": 1763275171.7859895,
+    "meta": {
+      "type": "retrieved",
+      "source_id": "convpair_1763274886_2"
+    }
   },
   {
     "role": "user",
-    "content": "what is my name",
-    "ts": 1763202869.5352268
+    "content": "no you suggested something else",
+    "ts": 1763275139.5021324,
+    "meta": {}
   },
   {
     "role": "assistant",
-    "content": "Bhujay",
-    "ts": 1763202871.6514947
+    "content": "You previously mentioned pistachio ice cream, but I also suggested vanilla ice cream as another option.",
+    "ts": 1763275142.462008,
+    "meta": {}
   },
   {
     "role": "user",
-    "content": "thanks for rememebering",
-    "ts": 1763202879.1973364
+    "content": "what mouth organ I have",
+    "ts": 1763275171.0386522,
+    "meta": {}
   },
   {
     "role": "assistant",
-    "content": "You're welcome, Bhujay!",
-    "ts": 1763202881.7190664
-  },
-  {
-    "role": "user",
-    "content": "tell me a one line story",
-    "ts": 1763202950.581176
-  },
-  {
-    "role": "assistant",
-    "content": "On a stormy night, the lighthouse keeper bravely guided a lost ship to safety.",
-    "ts": 1763202952.687006
-  },
-  {
-    "role": "user",
-    "content": "thats great , tell me one on ancientt wisdom",
-    "ts": 1763202972.73507
-  },
-  {
-    "role": "assistant",
-    "content": "In a time long past, a wise elder taught that true strength lies not in power, but in the courage to listen and learn.",
-    "ts": 1763202978.6303475
-  },
-  {
-    "role": "user",
-    "content": "how old are you",
-    "ts": 1763202990.1622608
-  },
-  {
-    "role": "assistant",
-    "content": "I don't have an age; I'm an AI created by OpenAI.",
-    "ts": 1763202992.1644635
-  },
-  {
-    "role": "user",
-    "content": "when you were born",
-    "ts": 1763203003.992857
-  },
-  {
-    "role": "assistant",
-    "content": "I was launched by OpenAI in November 2022.",
-    "ts": 1763203005.3729744
-  },
-  {
-    "role": "user",
-    "content": "do you have any siblings",
-    "ts": 1763203017.6562197
-  },
-  {
-    "role": "assistant",
-    "content": "As an AI, I don't have siblings, but there are other AI models developed by OpenAI.",
-    "ts": 1763203019.5737362
-  },
-  {
-    "role": "user",
-    "content": "who are they",
-    "ts": 1763203027.8571935
-  },
-  {
-    "role": "assistant",
-    "content": "Other AI models developed by OpenAI include GPT-3, DALL-E, and Codex.",
-    "ts": 1763203030.5756936
-  },
-  {
-    "role": "user",
-    "content": "what icecream do you cell",
-    "ts": 1763203051.258513
-  },
-  {
-    "role": "assistant",
-    "content": "We sell vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream ice cream.",
-    "ts": 1763203054.1628702
-  },
-  {
-    "role": "user",
-    "content": "one line poen in kanada",
-    "ts": 1763203070.4108467
-  },
-  {
-    "role": "assistant",
-    "content": "ಚಂದ್ರರ ಸುರ್ಯನಿಸು, ಪ್ರೀತಿಯ ಬೆಳಕು ಹರಿಯುತ್ತದೆ.",
-    "ts": 1763203072.597641
-  },
-  {
-    "role": "user",
-    "content": "one line in german",
-    "ts": 1763203083.3790054
-  },
-  {
-    "role": "assistant",
-    "content": "Die Blumen blühen im Sonnenlicht.",
-    "ts": 1763203085.1776996
-  },
-  {
-    "role": "user",
-    "content": "one in frfrench",
-    "ts": 1763203095.880947
-  },
-  {
-    "role": "assistant",
-    "content": "Les étoiles brillent dans la nuit.",
-    "ts": 1763203097.4788885
-  },
-  {
-    "role": "user",
-    "content": "one in english",
-    "ts": 1763203102.282136
-  },
-  {
-    "role": "assistant",
-    "content": "The sun sets, painting the sky in hues of gold.",
-    "ts": 1763203104.2423232
-  },
-  {
-    "role": "user",
-    "content": "what is my name",
-    "ts": 1763203118.8041778
-  },
-  {
-    "role": "assistant",
-    "content": "I do not know your name.",
-    "ts": 1763203121.1596708
-  },
-  {
-    "role": "user",
-    "content": "wwhat ice cream dod you sell last time",
-    "ts": 1763203147.7683513
-  },
-  {
-    "role": "assistant",
-    "content": "We sold vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream ice cream last time.",
-    "ts": 1763203149.838722
-  },
-  {
-    "role": "user",
-    "content": "hello",
-    "ts": 1763203433.4471555
-  },
-  {
-    "role": "assistant",
-    "content": "Hello! We have the following ice creams available: vanilla, strawberry, mint chocolate chip, pistachio (sugar-free), and cookies and cream.",
-    "ts": 1763203435.6366687
-  },
-  {
-    "role": "user",
-    "content": "bye",
-    "ts": 1763203438.615722
-  },
-  {
-    "role": "assistant",
-    "content": "Goodbye! If you need anything else, feel free to ask!",
-    "ts": 1763203440.71305
-  },
-  {
-    "role": "user",
-    "content": "what is beautiful day to day 15th nov",
-    "ts": 1763206741.8364375
-  },
-  {
-    "role": "assistant",
-    "content": "November 15th is celebrated as Beautiful Day in various contexts, often associated with positivity and appreciation of life. It encourages people to find beauty in everyday moments.",
-    "ts": 1763206748.0150855
-  },
-  {
-    "role": "user",
-    "content": "so hoso is december",
-    "ts": 1763206784.021209
-  },
-  {
-    "role": "assistant",
-    "content": "Hoso does not refer to December in a widely recognized context.",
-    "ts": 1763206788.1576045
-  },
-  {
-    "role": "user",
-    "content": "that was a typ",
-    "ts": 1763206804.0400248
-  },
-  {
-    "role": "assistant",
-    "content": "Hoso likely refers to December, as it may have been a typo for \"hoso\". Please confirm if you meant \"how is December\".",
-    "ts": 1763206807.541728
-  },
-  {
-    "role": "user",
-    "content": "yes thats true",
-    "ts": 1763206823.2412288
-  },
-  {
-    "role": "assistant",
-    "content": "December is often associated with winter festivities, holidays, and celebrations. It brings a sense of joy and reflection as the year comes to a close. Many people embrace the festive spirit, spending time with family and friends.",
-    "ts": 1763206827.1838295
-  },
-  {
-    "role": "user",
-    "content": "my friend name is subrat",
-    "ts": 1763206853.1103084
-  },
-  {
-    "role": "assistant",
-    "content": "That's nice! Subrat is a great name. How can I assist you regarding your friend?",
-    "ts": 1763206856.3633673
+    "content": "You have a Suzuki mouth organ.",
+    "ts": 1763275173.457521,
+    "meta": {}
   }
 ]
